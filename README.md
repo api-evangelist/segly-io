@@ -1,4 +1,4 @@
-# segly-io
+# Segly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-segly-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://segly.io/
+Segly provides tools to separate characters, objects, and scenes into clean, production‑ready layered exports. Users can download cropped PNGs, placement data, and formats such as Spine or Live2D PSDs, facilitating animation and rigging workflows. The service targets creators needing precise layer separation for game assets, visual effects, and interactive media, offering both a web interface and API access for integration into pipelines.
+
+**Areas:** Company · Animation · Graphics · API · Layer Separation · Tools
+
+## Segly on APIs.io
+
+Everything profiled for Segly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/segly-io/](https://apis.io/providers/segly-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Segly Api Keys API](https://apis.io/apis/segly-io/segly-io-api-keys-api/) — The Api Keys API from Segly — 2 operation(s) for api keys.
+- [Segly Capabilities API](https://apis.io/apis/segly-io/segly-io-capabilities-api/) — The Capabilities API from Segly — 1 operation(s) for capabilities.
+- [Segly Credit Packs API](https://apis.io/apis/segly-io/segly-io-credit-packs-api/) — The Credit Packs API from Segly — 1 operation(s) for credit packs.
+- [Segly Layer Predictions API](https://apis.io/apis/segly-io/segly-io-layer-predictions-api/) — The Layer Predictions API from Segly — 1 operation(s) for layer predictions.
+- [Segly Openapi.json API](https://apis.io/apis/segly-io/segly-io-openapi-json-api/) — The Openapi.json API from Segly — 1 operation(s) for openapi.json.
+- [Segly Payment Capabilities API](https://apis.io/apis/segly-io/segly-io-payment-capabilities-api/) — The Payment Capabilities API from Segly — 1 operation(s) for payment capabilities.
+- [Segly Segmentations API](https://apis.io/apis/segly-io/segly-io-segmentations-api/) — The Segmentations API from Segly — 2 operation(s) for segmentations.
+- [Segly Uploads API](https://apis.io/apis/segly-io/segly-io-uploads-api/) — The Uploads API from Segly — 4 operation(s) for uploads.
+- [Segly .well Known API](https://apis.io/apis/segly-io/segly-io-well-known-api/) — The .well Known API from Segly — 3 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Segly Agentic Access](https://apis.io/agentic-access/segly-io/segly-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiKeyCreateRequest](https://apis.io/schemas/segly-io/segly-io-api-key-create-request/)
+- [ApiKeyCreateResponse](https://apis.io/schemas/segly-io/segly-io-api-key-create-response/)
+- [ApiKeyResource](https://apis.io/schemas/segly-io/segly-io-api-key-resource/)
+- [CapabilitiesResponse](https://apis.io/schemas/segly-io/segly-io-capabilities-response/)
+- [LayerPredictionRequest](https://apis.io/schemas/segly-io/segly-io-layer-prediction-request/)
+- [LayerPredictionResponse](https://apis.io/schemas/segly-io/segly-io-layer-prediction-response/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Segly API Rules](https://apis.io/rules/segly-io/segly-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Segly Domain Security](https://apis.io/security/segly-io/segly-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Segly Plans Pricing](https://apis.io/plans/segly-io/segly-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://segly.io/)
+- [Documentation](https://segly.io/developers)
+- [API reference](https://api.segly.io/v1/openapi.json)
+- [Pricing](https://segly.io/pricing)
+- [Support](https://segly.io/contact)
+- [Changelog](https://segly.io/changelog)
+- [Terms of service](https://segly.io/terms)
+- [Privacy policy](https://segly.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.8** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 41.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.4 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 48.5 |
+
+**Agent readiness 44.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/segly-io/](https://apis.io/providers/segly-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Segly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/segly-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
